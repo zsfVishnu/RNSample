@@ -17,7 +17,7 @@ jobs:
 
       - name: Upload action step
         id: apkSize
-        uses: zsfVishnu/apk-metric-upload@v1.0.0
+        uses: zsfVishnu/apk-metric-upload@main
         with:
           flavor: 'debug'
           working-directory: android
