@@ -21,3 +21,8 @@ jobs:
         with:
           flavor: 'debug'
           working-directory: android
+          
+          
+          
+          
+          
