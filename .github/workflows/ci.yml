@@ -20,7 +20,7 @@ jobs:
         uses: zsfVishnu/apk-metric-upload@t1
         with:
           flavor: 'debug'
-          working-directory: android
+          is-react-native: true
           
           
           
