@@ -23,3 +23,4 @@ jobs:
         with:
           flavor: 'debug'
           is-react-native: true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
