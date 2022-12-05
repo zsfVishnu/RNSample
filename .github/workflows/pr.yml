@@ -19,7 +19,7 @@ jobs:
               npm install
       - name: get diff
         id: apkSize
-        uses: zsfVishnu/apk-size-tracker@master
+        uses: zsfVishnu/apk-size-tracker@fix/filewise-diff
         with:
           flavor: 'debug'
           is-react-native: true
