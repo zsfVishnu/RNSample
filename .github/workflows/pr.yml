@@ -1,10 +1,10 @@
 on: 
-  pull_request:
-    types: [ labeled ]
+  pull_request
+#     types: [ labeled ]
 
 jobs:
   ApkSizeTracker:
-    if: ${{ github.event.label.name == 'fetchdelta' }}
+#     if: ${{ github.event.label.name == 'fetchdelta' }}
     runs-on: ubuntu-latest
     name: Apk size tracker
     steps:
