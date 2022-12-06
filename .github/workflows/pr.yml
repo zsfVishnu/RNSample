@@ -26,5 +26,4 @@ jobs:
           flavor: 'debug'
           is-react-native: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          threshold: 1000
           
