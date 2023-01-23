@@ -4,7 +4,6 @@ on:
 
 jobs:
   ApkSizeTracker:
-#     if: ${{ github.event.label.name == 'fetchdelta' }}
     runs-on: ubuntu-latest
     name: Apk size tracker
     steps:
@@ -21,7 +20,7 @@ jobs:
               npm install
       - name: get diff
         id: apkSize
-        uses: zsfVishnu/apk-size-tracker@chore/readme
+        uses: zsfVishnu/apk-size-tracker@readme
         with:
           flavor: 'debug'
           is-react-native: true
